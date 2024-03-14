@@ -5,6 +5,15 @@ CRUD проект, который имеет тематику рецензии �
 ```
 docker compose up
 ```
+Env.example -> переименовать в env и настроить БД (создать в Adminer)
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel-10-task-list
+DB_USERNAME=root
+DB_PASSWORD=root
+```
 Затем заполнить базу данным данными
 ```
 php artisan migrate
